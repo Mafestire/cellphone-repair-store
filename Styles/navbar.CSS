@@ -1,0 +1,35 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+    background-color: #f26522;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar-links {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.navbar-links a {
+    color: rgb(222, 213, 213);
+    text-decoration: none;
+    padding: 5%;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: flex;
+}
+
+.navbar-links a:hover {
+    color: #1C2833;
+}
+
+.mobile-button {
+    display: none;
+}
+
+.search-icon {
+    color: #fff;
+}

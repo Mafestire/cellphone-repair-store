@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#social{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C2833;
+    color: white;
+    align-items: center;
+    padding: 1% 10%;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.fas{
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    margin-right: 2%;
+}
+
+.text h3, h2, p {
+    font-size: 28px;
+}
